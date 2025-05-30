@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web design</title>
+    <style>
+        .Navbar {
+            flex-direction: row;
+            justify-content: left;
+            background-color: black;
+            font-size: 50px;
+            padding-left: 20px;
+            color: aliceblue;
+            justify-content: start;
+            align-items: flex-start;
+            
+        } 
+
+        .Elements {
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            align-items: flex-end;
+            background-color: black;
+            gap: 50px;
+            color: aliceblue;
+            padding: 10px;
+            font-size: 20px;
+
+        }
+
+        .web {
+            color: black;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .courses {
+            color: black;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>website</h1>
+    <div class="Navbar">
+        <div class="log">GFG</div>
+        <div class="Elements">
+
+            <p>Home</p>
+            <p>About</p>
+            <p>Services</p>
+            <p>Contact</p>
+        </div>
+    </div>
+    <h1 class="web">Welcome to Our Wesite!</h1>
+    <p class="courses">Get plenty Knowledge by our wonderful courses.</p>
 </body>
+
 </html>
